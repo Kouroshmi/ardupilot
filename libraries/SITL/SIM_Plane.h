@@ -40,7 +40,7 @@ public:
     }
 
 protected:
-    const float hover_throttle = 0.7f;
+    const float hover_throttle = 0.9f;
     const float air_density = 1.225; // kg/m^3 at sea level, ISA conditions
     float angle_of_attack;
     float beta;
@@ -48,7 +48,7 @@ protected:
     struct {
         // from last_letter skywalker_2013/aerodynamics.yaml
         // thanks to Georacer!
-        float s = 0.45;
+        float s = 2;
         float b = 1.88;
         float c = 0.24;
         float c_lift_0 = 0.56;
