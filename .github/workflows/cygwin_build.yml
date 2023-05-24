@@ -25,7 +25,6 @@ on:
       - 'Tools/Pozyx/**'
       - 'Tools/PrintVersion.py'
       - 'Tools/Replay/**'
-      - 'Tools/UDP_Proxy/**'
       - 'Tools/Vicon/**'
       - 'Tools/bootloaders/**'
       - 'Tools/completion/**'
@@ -33,7 +32,6 @@ on:
       - 'Tools/environment_install/**'
       - 'Tools/geotag/**'
       - 'Tools/gittools/**'
-      - 'Tools/mavproxy_modules/**'
       - 'Tools/simulink/**'
       - 'Tools/vagrant/**'
       # Discard python file from Tools/scripts as not used
@@ -92,12 +90,10 @@ on:
       - 'Tools/IO_Firmware/**'
       - 'Tools/Linux_HAL_Essentials/**'
       - 'Tools/LogAnalyzer/**'
-      - 'Tools/mavproxy_modules/**'
       - 'Tools/Pozyx/**'
       - 'Tools/PrintVersion.py'
       - 'Tools/Replay/**'
       - 'Tools/simulink/**'
-      - 'Tools/UDP_Proxy/**'
       - 'Tools/vagrant/**'
       - 'Tools/Vicon/**'
       # Discard python file from Tools/scripts as not used
